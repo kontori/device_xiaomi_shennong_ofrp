@@ -27,7 +27,7 @@ OF_CLOCK_POS := 1
 # Device info
 OF_DEVICE_CODENAME := shennong
 OF_DEVICE_NAME := "Xiaomi 14 Pro"
-OF_MAINTAINER := "Your Name"
+OF_MAINTAINER := "kontori"
 
 # LED settings
 OF_USE_GREEN_LED := 0
@@ -88,7 +88,7 @@ OF_USE_MAGISKBOOT_FOR_ALL_PATCHES := 1
 
 # Support for Android 14
 OF_SUPPORT_OZIP_DECRYPTION := 0
-OF_VANILLA_BUILD := 0
+# OF_VANILLA_BUILD := 0
 
 # Additional OrangeFox features
 FOX_USE_SPECIFIC_MAGISK_ZIP := 1
@@ -96,8 +96,8 @@ FOX_DELETE_AROMAFM := 1
 FOX_DELETE_INITD_ADDON := 1
 
 # Virtual A/B
-OF_VIRTUAL_AB_DEVICE := 1
-OF_AB_DEVICE := 1
+# OF_VIRTUAL_AB_DEVICE := 1
+# OF_AB_DEVICE := 1
 
 # Recovery install
 OF_RUN_POST_FORMAT_PROCESS := 1
