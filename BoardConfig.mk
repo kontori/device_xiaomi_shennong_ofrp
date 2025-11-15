@@ -95,8 +95,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_USES_METADATA_PARTITION := true
 
 # Virtual A/B
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
-
 ENABLE_VIRTUAL_AB := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 
@@ -172,9 +170,6 @@ RECOVERY_BINARY_SOURCE_FILES += $(TARGET_OUT_EXECUTABLES)/debuggerd
 
 # Fastbootd
 TW_INCLUDE_FASTBOOTD := true
-PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.1-impl-mock \
-    fastbootd
 
 # Build flags
 ALLOW_MISSING_DEPENDENCIES := true
