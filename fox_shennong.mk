@@ -70,7 +70,7 @@ OF_USE_LEGACY_TIME_FIXUP := 1
 OF_ADVANCED_SECURITY := 1
 
 # Support for Magisk boot patch backup/restore
-OF_SUPPORT_ALL_BLOCK_OTA_UPDATES := 1
+# OF_SUPPORT_ALL_BLOCK_OTA_UPDATES := 1
 
 # Support for Samsung's super partition
 OF_NO_SAMSUNG_SPECIAL := 1
