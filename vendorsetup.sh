@@ -29,8 +29,8 @@ export OF_MAINTAINER="Your Name"
 export OF_DEVICE="shennong"
 
 # Device specifications
-export OF_AB_DEVICE=1
-export OF_VIRTUAL_AB_DEVICE=1
+export FOX_AB_DEVICE=1
+export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEVICE_WITHOUT_PERSIST=1
 
 # Screen settings
