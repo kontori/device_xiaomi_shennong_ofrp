@@ -20,12 +20,12 @@ add_lunch_combo twrp_shennong-userdebug
 add_lunch_combo twrp_shennong-user
 
 # OrangeFox build environment
-export FOX_VERSION="R12.1"
+export FOX_MAINTAINER_PATCH_VERSION="1"
 export FOX_BUILD_TYPE="Stable"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-export OF_MAINTAINER="Your Name"
+export OF_MAINTAINER="kontori"
 export OF_DEVICE="shennong"
 
 # Device specifications
@@ -79,7 +79,7 @@ echo " OrangeFox Recovery Device Tree"
 echo " Device: Xiaomi 14 Pro (shennong)"
 echo " Platform: Snapdragon 8 Gen 3"
 echo " Maintainer: $OF_MAINTAINER"
-echo " Version: $FOX_VERSION"
+echo " Version: $FOX_MAINTAINER_PATCH_VERSION"
 echo " Build Type: $FOX_BUILD_TYPE"
 echo "====================================="
 echo ""
