@@ -26,8 +26,8 @@ OF_CLOCK_POS := 1
 
 # Device info
 OF_DEVICE_CODENAME := shennong
-OF_DEVICE_NAME := "Xiaomi 14 Pro"
-OF_MAINTAINER := "kontori"
+OF_DEVICE_NAME := Xiaomi 14 Pro
+OF_MAINTAINER := kontori
 
 # LED settings
 OF_USE_GREEN_LED := 0

@@ -25,7 +25,7 @@ export FOX_BUILD_TYPE="Stable"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-export OF_MAINTAINER="kontori"
+export OF_MAINTAINER=kontori
 export OF_DEVICE="shennong"
 
 # Device specifications
