@@ -100,7 +100,7 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 PLATFORM_VERSION := 99.87.36
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
-PLATFORM_SECURITY_PATCH := 2127-12-31
+PLATFORM_SECURITY_PATCH := 2025-10-01
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 PRODUCT_PACKAGES += \
@@ -160,8 +160,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.options=::v2
 
 # PMIC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/pmic/xiaomi_shennong_pmic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/pmic/xiaomi_shennong_pmic.bin
+# TODO: Extract PMIC firmware from device if needed
+# PRODUCT_COPY_FILES += \
+#     $(LOCAL_PATH)/recovery/root/vendor/firmware/pmic/xiaomi_shennong_pmic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/pmic/xiaomi_shennong_pmic.bin
 
 # Additional props
 PRODUCT_PROPERTY_OVERRIDES += \
