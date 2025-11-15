@@ -108,7 +108,7 @@ FOX_INSTALLER_DISABLE_AUTOREBOOT := 1
 
 # Build type
 FOX_BUILD_TYPE := Stable
-FOX_VERSION := R12.1
+# FOX_VERSION := R12.1
 FOX_BUILD_DATE := $(shell date +%Y%m%d)
 
 # Replace busybox
